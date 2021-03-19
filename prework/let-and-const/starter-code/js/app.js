@@ -35,9 +35,9 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  console.log(rando);
+  //console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // This error accrued because the 'rando' variable is declared locally in while structure by using 'let' declaration, that why the 'var' declaration allows you to use the variable wherever you want.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
