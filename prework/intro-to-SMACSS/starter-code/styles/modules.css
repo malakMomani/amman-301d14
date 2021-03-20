@@ -1,0 +1,54 @@
+#logo img {
+  float: left;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
+aside img {
+  float: left;
+}
+
+
+footer section p{
+  text-align: center;
+}
+
+.print img {
+  margin-right: 3px;
+}
+
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+
+.recipe li {
+  float: left;
+  width: 40%;
+  font-size: 1.3em;
+  line-height: 31px;
+}
+
+aside p {
+  padding-left: 100px;
+  width: 65%;
+  margin: 0;
+  text-indent: 0;
+
+}
+
+footer section p{
+  padding: 50px 0;
+  line-height: 1.5em;
+  color: #aaa;
+}
